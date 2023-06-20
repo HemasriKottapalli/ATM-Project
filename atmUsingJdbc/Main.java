@@ -3,8 +3,8 @@ import java.sql.SQLException;
 import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-		int amount;
-		Scanner inp= new Scanner(System.in);
+		 int amount;
+		 Scanner inp= new Scanner(System.in);
 		 System.out.println("Enter :\n1.Sign up\n2.Login");
 		 int choice = inp.nextInt();
 		 if(choice==1)
